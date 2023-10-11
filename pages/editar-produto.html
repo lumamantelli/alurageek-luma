@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/adicionar-produto.css">
+    <link rel="stylesheet" href="../css/cabecalho.css">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/rodape.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Novo produto</title>
+</head>
+<body>
+    <header class="cabecalho">
+        <div>
+            <img class="logo" src="../imagens/Logo.svg" alt="Logo AluraGeek" data-logo>
+            <form class="pesquisa">
+                <input class="input__pesquisa" type="text" name="pesquisa" id="pesquisa" placeholder="O que deseja encontrar?" data-pesquisa>
+                <button class="btn btn__pesquisar" type="submit">
+                    <img class="lupa__pesquisa" src="../imagens/lupa.svg" alt="Lupa Pesquisar" data-botao-pesquisa>
+                </button>
+            </form>
+        </div>
+        <button class="btn btn__login" type="submit">Menu administrador</button>
+        <button class="btn__pesquisar2"><img src="../imagens/lupa.svg" alt="lupa"></button>
+    </header>
+    <main class="conteudo">
+        <section class="adicionar__produto">
+            <form action="" class="form__adicionar" data-formulario="">
+                <h1 class="adicionar__titulo">Editar produto</h1>
+                <img src="" data-imagem/>
+                <fieldset class="form__campo__add">
+                    <label for="">
+                        Nome do produto
+                    </label>
+                    <input name="nome" maxlength="20" type="text" required data-nome>
+                    <span class="mensagem-erro"></span>
+                </fieldset>
+                <fieldset class="form__campo__add">
+                    <label for="">
+                        Preço do produto
+                    </label>
+                    <input name="preco" type="number" required data-preco>
+                    <span class="mensagem-erro"></span>
+                </fieldset>
+                <button class="btn btn__adicionar" type="submit">Salvar</button>
+            </form>
+        </section>
+    </main>
+    <footer class="rodape">
+        <div class="rodape__conteudo">
+            <img src="../imagens/Logo.svg" alt="Logo AluraGeek">
+            <nav class="rodape__nav">
+                <ul class="nav__list">
+                    <li class="nav__items">Quem somos nós</li>
+                    <li class="nav__items">Política de privacidade</li>
+                    <li class="nav__items">Programa fidelidade</li>
+                    <li class="nav__items">Nossas lojas</li>
+                    <li class="nav__items">Quero ser franqueado</li>
+                    <li class="nav__items">Anuncie aqui</li>
+                </ul>
+            </nav>
+            <form action="" class="rodape__contato">
+                <h1>Fale conosco</h1>
+                <fieldset class="form__campo">
+                    <label for="">Nome</label>
+                    <input type="text" name="nome" id="nome" class="form__nome" minlength="3" maxlength="40" required>
+                    <span class="mensagem-erro"></span>
+                </fieldset>
+                <fieldset class="form__campo">
+                    <textarea name="mensagem" id="mensagem" cols="30" rows="10" maxlength="120" placeholder="Escreva sua mensagem" required></textarea>
+                    <span class="mensagem-erro"></span>
+                </fieldset>
+                <button class="btn btn__enviar" type="submit">Enviar</button>
+            </form>
+        </div>
+    </footer>
+    <footer class="copyrigth">
+        <img class="copyrigth__img" src="../imagens/Copyrightcinza.svg" alt="Copyrigth">
+        <p class="copyrigth__texto">Luma Mantelli - 2023</p>
+    </footer>
+    <script src="../js/formularioRodape.js" type="module"></script>
+    <script src="../js/logo.js"></script>
+    <script src="../js/editar-produto.js" type="module"></script>
+</body>
+</html>

@@ -1,0 +1,86 @@
+.cabecalho {
+    display: flex;
+    padding: 2% 8%;
+    justify-content: space-between;
+}
+
+.cabecalho div {
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+}
+
+.logo {
+    padding: 0 2%;
+}
+
+.pesquisa {
+    align-items: center;
+    background: var(--cinza);
+    border-radius: 100px;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.input__pesquisa {
+    padding-left: 5%;
+    height: 80%;
+    background: transparent;
+}
+
+.lupa__pesquisa {
+    width: 20px;
+    background: transparent;
+}
+
+.btn__pesquisar {
+    border: none;
+    background: transparent;
+    height: 100%;
+    padding-right: 5%;
+}
+
+.btn__login {
+    background: var(--azul-claro);
+    border: 1px solid var(--azul);
+    color: var(--azul);
+    
+}
+
+.btn__pesquisar2 {
+    display: none;
+    border: none;
+}
+
+@media screen and (min-width: 320px) {
+    .cabecalho {
+        justify-content: space-between;
+        align-items: center;
+    }
+    .logo {
+        width: 30vw;
+    }
+    .pesquisa {
+        display: none;
+    }
+
+
+    .btn__login {
+        width: 30vw;
+        height: 4vh;
+    }
+}
+
+@media screen and (min-width: 768px) {
+
+    .pesquisa {
+        display: flex;
+    }
+
+    .btn__login {
+        width: 20vw;
+        height: 6vh;
+    }
+}
+

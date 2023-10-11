@@ -1,0 +1,50 @@
+.conteudo {
+    background: var(--cinza);
+    display: flex;
+    justify-content: center;
+}
+
+.adicionar__produto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10% 0;
+    width: 40%;
+}
+
+.form__campo__add {
+    border-bottom: 1px solid var(--preto50);
+    display: flex;
+    flex-direction: column;
+    background: var(--branco);
+    height: 9vh;
+    gap: 3px;
+}
+
+.form__adicionar {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.btn__adicionar {
+    background: var(--azul);
+    border: none;
+    color: var(--branco);
+    height: 60px;
+}
+
+.adicionar__titulo {
+    font-size: 2rem;
+   
+}
+
+@media screen and (max-width: 768px) {
+    .adicionar__produto {
+        width: 80%;
+    }
+
+    .btn__login {
+        font-size: 0.6rem;
+    }
+}

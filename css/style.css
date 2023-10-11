@@ -1,0 +1,104 @@
+:root {
+    --cinza: #F5F5F5;
+    --branco: #fff;
+    --preto: #464646;
+    --preto50: #A2A2A2;
+    --azul: #2A7AE4;
+    --azul-claro: #EAF2FD;
+
+    --montserrat: 'Montserrat', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    width: 100%;
+}
+
+input, textarea, select {
+    border: none;
+    background: transparent;
+    font-family: var(--montserrat);
+    padding: 0 4px;
+}
+textarea {
+    resize: none;
+}
+
+input:focus, textarea:focus, select:focus{
+    box-shadow: none;
+    outline: none;
+}
+
+option {
+    font-family: var(--montserrat);
+    color: var(--preto);
+
+}
+
+label{
+    color: var(--preto50);
+    font-family: var(--montserrat);
+    font-weight: 400;
+    font-size: 0.8rem;
+    padding-left: 8px;
+    padding-top: 8px;
+}
+
+
+.btn__pesquisar2 {
+    display: flex;
+    align-items: center;
+}
+
+.btn {
+    align-items: center;
+    cursor: pointer;
+    display: flex;
+    font-family: var(--montserrat);
+    font-weight: 600;
+    justify-content: center;
+}
+
+::placeholder {
+    font-family: var(--montserrat);
+    font-weight: 400;
+    color: var(--preto50);
+    padding-left: 8px;
+    padding-top: 8px;
+}
+
+h1 {
+    color: var(--preto);
+    font-family: var(--montserrat);
+    font-weight: 600;
+    font-size: large;
+}
+
+p {
+    font-family: var(--montserrat);
+    font-weight: 500;
+    font-size: 0.9rem;
+}
+
+a {
+    font-family: var(--montserrat);
+    font-weight: 600;
+    font-size: 0.9rem;
+    color: var(--azul);
+}
+
+.mensagem-erro {
+    color: red;
+    font-family: var(--montserrat);
+    font-size: 0.7rem;
+    padding: 3px;
+}
+
+@media screen and (min-width: 768px) {
+    .btn__pesquisar2 {
+        display: none;
+    }
+}

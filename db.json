@@ -1,0 +1,106 @@
+{
+  "produtos": [
+    {
+      "nome": "Teclado",
+      "imagem": " https://cdn.awsli.com.br/2500x2500/1318/1318167/produto/204743111/k630wp-rgb-pt-1-hfimdc.jpg",
+      "preco": "85",
+      "id": 2
+    },
+    {
+      "nome": "Robo Ellik",
+      "imagem": "https://m.media-amazon.com/images/I/51DBd7O6GEL._AC_UF894,1000_QL80_.jpg",
+      "preco": "159",
+      "id": 3
+    },
+    {
+      "nome": "Fone Gamer",
+      "imagem": "https://cdn.awsli.com.br/600x450/1307/1307157/produto/138258516/cd9356d94a.jpg",
+      "preco": "60",
+      "id": 4
+    },
+    {
+      "nome": "Bonsai Artificial",
+      "imagem": "https://m.media-amazon.com/images/I/7153LC1Y9wL._AC_SX569_.jpg",
+      "preco": "45",
+      "id": 6
+    },
+    {
+      "nome": "Vaso Decorativo",
+      "imagem": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcT6H3sXNKHqxM0a2xa0D7ErKNaEF1nxhZaMiXdDsDnXfkx0vjumbhFcuJ4xq0M58rM7PggznWNB1_z1IeOfC31GWGPJH9eFyje-twyrEn4&usqp=CAE",
+      "preco": "35",
+      "id": 7
+    },
+    {
+      "nome": "Teclado X",
+      "imagem": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRAjwINN6tc13hgtcfMZDjGuqzTyaw-gqAy9_cpuEUZFvukln4kJAcglL8A0o3Ebpyw0priDg7CIK5BhBGxRLcOCh9fR_OgF4DSjgPYA9GJAw5AHjrUqnRS&usqp=CAE",
+      "preco": "50",
+      "id": 8
+    },
+    {
+      "nome": "Mouse Gamer",
+      "imagem": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSqX8p0ceyO8WpwrU5_f6f0YBo5x2qPM-tWXuQWtrk8kVuZUjy9Ub_SU9xmscD1q5-T6Ys5l4HAB5rRD34zFeM2P2xvh3vQl1B3ns8fyC5RgGl3mtUkJvpEnA&usqp=CAE",
+      "preco": "20",
+      "id": 9
+    },
+    {
+      "nome": "Caixa de Som Gamer",
+      "imagem": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSd_TrhsfjPLwuL4haRsluG0el0HXMUz9UnEUGm6FClr9TAJc4Z5UeIYzdsQhduVWrDw6yT2H4hwz3XJUtTEBIDBKJx2pt8a1pyNTC4LH00Rg32Jdx5xF8FLw&usqp=CAE",
+      "preco": "120",
+      "id": 10
+    },
+    {
+      "nome": "Gabinete Gamer",
+      "imagem": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTByVgUoC-wcH1Sm7imjRTN8C-t1LQ5HT7fhIoz0UNQNMxor5oXM1JKtvcDuTUsYAygU3-anQjtBFpOif8VEBnKy6Ig8oAAaq5SJAdWy60PueC-XPDtpHvkIQ&usqp=CAE",
+      "preco": "245",
+      "id": 11
+    },
+    {
+      "nome": "Hub 4 Portas",
+      "imagem": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTaVKczxyk68XgsRDTUmSv1gIEw5df-fxbiQ3zVddNK54p__wvdhZEnO3GSkZfyYffbMU_SUJLqeK-XS__lY9VSatLylEcmNQaC3qWDtL-Oox3NRkm34J5Cfw&usqp=CAE",
+      "preco": "189",
+      "id": 12
+    },
+    {
+      "nome": "Neon Decorativo",
+      "imagem": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQOmuFpIh-sOUAOAKU1hm9pPtpn6YcJ3egJ4XQGCECWkpSLTOcpGcZJjK25YDJXYFREh6BalLi8-gqGYXeX6EK_KD0RSUgt&usqp=CAE",
+      "preco": "35",
+      "id": 13
+    },
+    {
+      "nome": "Stand Desk Suporte",
+      "imagem": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcR2vjS1yd0UtAJysPn3s8E83XknF4KmSwr2UxvuUupg29H9M33SfrivmsPGlg_m77eYH1L_I6MUP4LjxZZWPkiIludwO35F7voRhrOQxmeLkKjnz6K15PyH6w&usqp=CAE",
+      "preco": "298",
+      "id": 14
+    },
+    {
+      "nome": "Suporte Headset",
+      "imagem": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSUDDdUa1ZFw6yDKexT4gSF9ipfECIdW7hmeXChBZ4W0ToCApWlL2_IEjCLFlPdGrd152bv1Fc1dCBYpw5lNcc41RfVh5b2n3wrh1BUdAe9nUKg3PcyeftmqA&usqp=CAE",
+      "preco": "89",
+      "id": 15
+    },
+    {
+      "nome": "Webcam Full HD",
+      "imagem": "https://m.media-amazon.com/images/I/61SCZyiMSNL._AC_UL480_FMwebp_QL65_.jpg",
+      "preco": "389",
+      "id": 16
+    },
+    {
+      "nome": "Fita Led RGB",
+      "imagem": "https://m.media-amazon.com/images/I/61Gu8awQjQS._AC_UL480_FMwebp_QL65_.jpg",
+      "preco": "15",
+      "id": 17
+    },
+    {
+      "nome": "Lâmpada Inteligente ",
+      "imagem": "https://m.media-amazon.com/images/I/61dLgPIgKML._AC_SL1500_.jpg",
+      "preco": "48",
+      "id": 18
+    },
+    {
+      "nome": "Mouse Óptico",
+      "imagem": "https://m.media-amazon.com/images/I/61lCLrCtuhL._AC_UF894,1000_QL80_.jpg",
+      "preco": "20",
+      "id": 19
+    }
+  ]
+}

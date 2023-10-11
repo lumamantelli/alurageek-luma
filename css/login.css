@@ -1,0 +1,64 @@
+.login {
+    align-items: center;
+    background: var(--cinza);
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+    justify-content: center;
+
+}
+
+.titulo{
+    margin: 10px 0;
+}
+
+.login__conteudo {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.form__login {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+.campo__login {
+    background: var(--branco);
+    display: flex;
+    flex-direction: column;
+    height: 38px;
+    margin: 10px 0;
+    width: 100%
+}
+
+.input__email, .input__senha {
+    height: 40px;
+    padding: 0 5%;
+
+}
+
+.btn__entrar {
+    background: var(--azul);
+    border: none;
+    color: var(--branco);
+    height: 50px;
+    margin: 10px 0;
+    width: 100%;
+}
+
+.btn__entrar:hover {
+    background: var(--azul-claro);
+    border: 1px solid var(--azul);
+    color: var(--azul);
+}
+
+@media screen and (max-width: 768px) {
+    .form__login {
+        width: 80%;
+    }
+}

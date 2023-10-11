@@ -1,0 +1,72 @@
+.banner {
+    height: 40vh;
+    background-image: url("../imagens/banner-console.svg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding: 3%;
+    gap: 20px;
+}
+
+.banner__titulo {
+    color: var(--branco);
+    font-size: 4rem;
+}
+
+.banner__texto {
+    color: var(--branco);
+    font-size: 2rem;
+    font-family: var(--montserrat);
+
+}
+
+.btn__banner {
+    height: 7vh;
+    width: 10vw;
+    color: var(--azul);
+    background: var(--azul-claro);
+    border: 1px solid var(--azul);
+}
+
+@media screen and (max-width:450px) {
+    .banner{
+        background-size: cover;
+        height: 18vh;
+        gap: 5px;
+    }
+    .banner__titulo {
+        font-size: 1rem;
+    }
+
+    .banner__texto {
+        font-size: 0.5rem;
+    }
+    .btn__banner {
+        width: 100px;
+        height: 5vh;
+        font-size: 0.5rem;
+    }
+}
+
+
+@media screen and (min-width: 768px) {
+    .banner {
+        background-size: cover;
+    }
+
+    .banner__titulo {
+        font-size: 2rem;
+    }
+
+    .banner__texto {
+        font-size: 1rem;
+    }
+    .btn__banner {
+        width: 150px;
+        height: 7vh;
+        font-size: 1rem;
+    }
+}

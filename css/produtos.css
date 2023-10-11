@@ -1,0 +1,47 @@
+
+.produtos {
+    display: flex;
+    flex-direction: column;
+ 
+}
+
+.produtos__container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 4% 8%;
+}
+
+.produtos__cabecalho {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.produtos__items {
+    flex-wrap: wrap;
+    display: flex;
+    gap: 2%;
+    justify-content: center;
+    width: 101%;
+}
+
+.items__preco {
+    font-weight: 600;
+}
+
+.items {
+    min-width: 15%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    height: auto;
+    padding: 4% 0;
+}
+
+
+
+
+
+
+
