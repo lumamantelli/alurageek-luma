@@ -31,21 +31,9 @@
       "id": 7
     },
     {
-      "nome": "Teclado X",
-      "imagem": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRAjwINN6tc13hgtcfMZDjGuqzTyaw-gqAy9_cpuEUZFvukln4kJAcglL8A0o3Ebpyw0priDg7CIK5BhBGxRLcOCh9fR_OgF4DSjgPYA9GJAw5AHjrUqnRS&usqp=CAE",
-      "preco": "50",
-      "id": 8
-    },
-    {
-      "nome": "Mouse Gamer",
-      "imagem": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSqX8p0ceyO8WpwrU5_f6f0YBo5x2qPM-tWXuQWtrk8kVuZUjy9Ub_SU9xmscD1q5-T6Ys5l4HAB5rRD34zFeM2P2xvh3vQl1B3ns8fyC5RgGl3mtUkJvpEnA&usqp=CAE",
-      "preco": "20",
-      "id": 9
-    },
-    {
       "nome": "Caixa de Som Gamer",
       "imagem": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSd_TrhsfjPLwuL4haRsluG0el0HXMUz9UnEUGm6FClr9TAJc4Z5UeIYzdsQhduVWrDw6yT2H4hwz3XJUtTEBIDBKJx2pt8a1pyNTC4LH00Rg32Jdx5xF8FLw&usqp=CAE",
-      "preco": "120",
+      "preco": "125",
       "id": 10
     },
     {
@@ -101,6 +89,12 @@
       "imagem": "https://m.media-amazon.com/images/I/61lCLrCtuhL._AC_UF894,1000_QL80_.jpg",
       "preco": "20",
       "id": 19
+    },
+    {
+      "nome": "Vídeo Gamer Pro",
+      "imagem": "https://d1sfzvg6s5tf2e.cloudfront.net/Custom/Content/Products/56/88/5688_video-game-ps4-1tb-call-of-dut-mw-ii-imp_l3_638139826301487531.jpg",
+      "preco": "250",
+      "id": 20
     }
   ]
 }

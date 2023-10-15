@@ -32,10 +32,8 @@ const produtos = document.querySelector("[data-lista]")
 
 
 produtos.addEventListener("click", async (evento) => {
-    let botaoDeletar = evento.target.className === "deletarImagem"
     
-
-    if (botaoDeletar) {
+    if (evento.target.classList.contains("deletarImagem")) {
         const produto = evento.target.closest("[data-id]")
         let id = produto.dataset.id
         conectaApi
@@ -46,17 +44,16 @@ produtos.addEventListener("click", async (evento) => {
             })
             .catch((erro) => console.log(erro))
     }
-    
 
-    // if (botaoEditar) {
-    //     const produto = evento.target.closest("[data-id]")
-    //     let id = produto.dataset.id
-      
-    //     let redirecionar = window.location.href = "../pages/editar-produto.html?id=" + id
+    if(evento.target.classList.contains("editarImagem")){
+        const produto = evento.target.closest("[data-id]")
+        let id = produto.dataset.id
+
+        let redirecionar = window.location.href = "../pages/editar-produto.html?id=" + id
 
 
-    //     return redirecionar
-    // }
+        return redirecionar
+    }
 })
 
 
