@@ -1,6 +1,6 @@
 # Alurageek Luma 
 Challenge realizado durante formação do programa ONE da Oracle e Alura.
-Este projeto ainda precisa de melhorias! Por isso, siga o passo a passo para v~e-lo rodando em sua máquina.
+Este projeto ainda precisa de melhorias! Por isso, siga o passo a passo para vê-lo rodando em sua máquina.
 
 ## 1° Passo
 Para começar, você deve ter instalado na sua máquina o Node.js. Caso não tenho clique no link abaixo para instalar, siga as instruções da página e depois volte.
