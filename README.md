@@ -17,12 +17,11 @@ Você deve fazer o dowload da pasta compactada do projeto, e depois descompacta-
 
 ## 4° Passo
 Abra a pasta descompactada do projeto em seu editor de código (VSCode)
-![Captura de tela 2023-10-15 193039](https://github.com/lumamantelli/alurageek-luma/assets/114085660/53a8b310-a615-4bb8-87b9-4b70e2f930e6)
+![Captura de tela 2023-10-15 230532](https://github.com/lumamantelli/alurageek-luma/assets/114085660/3958a881-2e40-4020-8b62-8712885a09fc)
 
 ## 5° Passo
 Abra o terminal com os atalhos CTRL + SHIFT + ' do seu teclado, ou no menu superior de seu VSCode, clique nos três risquinhos > terminal > new terminal
 ![Captura de tela 2023-10-15 230348](https://github.com/lumamantelli/alurageek-luma/assets/114085660/76f12927-d4f9-492e-a085-996428fe41d7)
-
 
 ## 5° Passo
 No terminal, digite os seguintes comandos, na seguinte ordem, após cada linha de comando pressione Enter:
